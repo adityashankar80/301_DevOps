@@ -40,11 +40,11 @@ node {
 
 	stage('Archive Package in jfrog') 
 	{
-		def server= Artifactory.server 'Artifactory Version 4.15.0'
+		def server= Artifactory.server 'Artifactory'
         def uploadSpec= """{
                         "files": [{
                         "pattern": "target/*.jar",
-                        "target": "Jenkins-snapshot"}]
+                        "target": "petclinic"}]
                     }"""
                     server.upload (uploadSpec)
 	}
