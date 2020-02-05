@@ -6,6 +6,9 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-samples</artifactId>
 		<version>1.4.0.BUILD-SNAPSHOT</version>
+		
+		<name>spring-boot-sample-atmosphere</name>
+               <packaging>war</packaging>
 	</parent>
 	<artifactId>spring-boot-sample-atmosphere</artifactId>
 	<name>Spring Boot Atmosphere Sample</name>
@@ -16,6 +19,7 @@
 		<url>http://www.spring.io</url>
 	</organization>
 	<properties>
+		 <java.version>1.7</java.version>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
 	<dependencies>
