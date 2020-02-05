@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "Terraform"
+  default = "aws_301"
 }
 
 variable "pvt_key" {
-  default = "/var/lib/jenkins/Terraform.pem"
+  default = "/var/lib/jenkins/aws_key.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0e0de7ce9f51e1e8c"
+  default = "sg-0ef072f0fd73317b6"
 }
